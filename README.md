@@ -1,16 +1,14 @@
-# financeApp
+# FinanceApp
 
-A new Flutter project.
+## Description
 
-## Getting Started
+This project is a flutter app made for educational purposes. I will resume the 2 main purposes of this app as:
+- Follow some stocks prices as a watchlist.
+- Track your own investments.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- The app uses the Firebase Authentication service in order to manage users, sign up new users and handle the login system.
+- The app uses an internal API I implemented with Node.js and Express.
+- The app uses an internal PostgreSQL database to store some information about the users such as the stocks they are following.
+- The app also uses an external API to get information about the stocks.
