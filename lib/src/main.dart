@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
       providers: [ChangeNotifierProvider(create: (_) => new tabselected())],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'FinanceApp',
+        title: 'Finance',
         theme: ThemeData(
           backgroundColor: Color.fromRGBO(30, 30, 30, 1),
           scaffoldBackgroundColor: Color.fromRGBO(30, 30, 30, 1),
